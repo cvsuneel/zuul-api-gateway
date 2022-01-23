@@ -17,7 +17,7 @@ zuul:
       url: http://52.39.158.79:1002/api/v1
     wishlist:
       path: /wishlist/**
-      url: http://52.39.158.79:1003
+      url: http://52.39.158.79:1003/api/v1
     cart:
       path: /cart/**
       url: http://52.39.158.79:1004/api/v1
