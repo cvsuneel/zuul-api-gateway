@@ -4,8 +4,8 @@ MAINTAINER sarat.e99@gmail.com Sarat Chandra E
 
 WORKDIR /app
 COPY . .
-RUN mvn package
-
+#RUN mvn package
+RUN mvn install -Dmaven.test.skip=true
 #jdk
 FROM openjdk:11.0.10-jre
 WORKDIR /app
